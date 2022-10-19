@@ -1,24 +1,34 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Fizz Buzz Api
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+This here is an API, that simply accepts a number as url param, and returns the
+respective response that goes with the input number. That is, Fizz in case given number
+is divisible by 3, Buzz if it is divisible by 5, and FizzBuzz in case it is divisible
+by both 3 and 5. In case the number is not divisible by either 3 or 5, it returns
+the number itself.
 
-* System dependencies
+## Getting Started
 
-* Configuration
+2. Install Ruby version
 
-* Database creation
+```sh
+$ rvm install 2.7.3
+```
 
-* Database initialization
+6. Run specs
 
-* How to run the test suite
+```sh
+$ bundle exec rspec ./FizzBuzzApi/spec/requests/fizz_buzz_spec.rb
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+7. Start the server
 
-* Deployment instructions
+```sh
+$ bin/rails server
+```
 
-* ...
+8. Open your browser
+
+[http://localhost:3000/fizzbuzzapi/15](http://localhost:3000/fizzbuzzapi/15)
