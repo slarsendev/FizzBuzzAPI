@@ -1,0 +1,53 @@
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/5" for 127.0.0.1 at 2022-10-14 01:22:31 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/3" for 127.0.0.1 at 2022-10-14 01:26:48 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/5" for 127.0.0.1 at 2022-10-14 01:26:48 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/15" for 127.0.0.1 at 2022-10-14 01:26:48 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"15"}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/7" for 127.0.0.1 at 2022-10-14 01:26:48 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"7"}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/3" for 127.0.0.1 at 2022-10-14 01:27:23 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/5" for 127.0.0.1 at 2022-10-14 01:27:23 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/15" for 127.0.0.1 at 2022-10-14 01:27:23 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"15"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/fizzbuzzapi/7" for 127.0.0.1 at 2022-10-14 01:27:23 +0500
+Processing by FizzBuzzController#fizzbuzzapi as HTML
+  Parameters: {"id"=>"7"}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
